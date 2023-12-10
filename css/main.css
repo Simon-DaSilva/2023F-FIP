@@ -219,6 +219,10 @@ input:checked + .more-info {
    text-align: center;
 }
 
+.room-title-page {
+   text-align: center;
+   text-decoration: underline;
+}
 
 .select-box {
    color: white;
@@ -235,11 +239,36 @@ input:checked + .more-info {
    
 }
 
+.select-box-room {
+   color: white;
+   width: 200px;
+   height: 40px;
+   padding: 5px;
+   border: 10px black;
+   margin: 10px;
+   background-color: #9a2018;
+   text-align: center;
+   margin-top: 42px;
+   margin-left: 100px;
+   
+   
+}
+
 .room-title {
    text-align: right;
    margin-left: 165px;
    font-size:  20px;
    text-decoration: underline;
+}
+
+.room-details {
+   margin-top: 10px;
+}
+
+.room-description p {
+   line-height: 22px;
+   margin-top: 20px;
+   
 }
 
 
