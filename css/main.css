@@ -198,6 +198,17 @@ input:checked + .more-info {
    display: none;
 }
 
+#wine {
+   text-align: center;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+#wine2 {
+   text-align: center;
+   font-size: 14px;
+   line-height: 22px;
+}
 /* 4. ---Main Hero Image Contact--- */
 
 .fas {
