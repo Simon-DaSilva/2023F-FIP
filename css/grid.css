@@ -23,6 +23,15 @@ body, p, h1, h2, h3, h4, h5 {
    padding-right: 15px;
 }
 
+.grid-image {
+   display: grid;
+   grid-template-columns: repeat(4, 73px);
+   column-gap: 0px;
+   max-width: 412px;
+   margin: 0 auto;
+   padding-right: 30px;
+}
+
 .col-span-1	{grid-column: span 1 / span 1;}
 .col-span-2	{grid-column: span 2 / span 2;}
 .col-span-3	{grid-column: span 3 / span 3;}
@@ -34,3 +43,4 @@ body, p, h1, h2, h3, h4, h5 {
 .col-start-2	{grid-column-start: 2;}
 .col-start-3	{grid-column-start: 3;}
 .col-start-4	{grid-column-start: 4;}
+
