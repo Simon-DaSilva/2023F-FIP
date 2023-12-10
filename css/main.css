@@ -218,6 +218,31 @@ input:checked + .more-info {
 #room-title {
    text-align: center;
 }
+
+
+.select-box {
+   color: white;
+   width: 200px;
+   height: 40px;
+   padding: 5px;
+   border: 10px black;
+   margin: 10px;
+   background-color: #9a2018;
+   text-align: center;
+   margin-top: 42px;
+   margin-left: 25px;
+   
+   
+}
+
+.room-title {
+   text-align: right;
+   margin-left: 165px;
+   font-size:  20px;
+   text-decoration: underline;
+}
+
+
 /* 4. ---Main Hero Image Contact--- */
 
 .fas {
