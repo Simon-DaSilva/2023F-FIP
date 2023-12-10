@@ -177,29 +177,26 @@ input, textarea {
    margin-left: 15px;
 }
 
+
+.more-info {
+   display: none;
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+
 .button {
    cursor: pointer;
+   text-decoration: underline;
    display: inline-block;
 }
 
-#dining-menu input, #Daily-Features{
-   display:none
-}
-
-#dining-menu input:checked ~ #Daily-Features {
+input:checked + .more-info {
    display: block;
 }
 
-#dining-menu input ~ div label::before {
-   content:"\25C0";
+#daily, #starter, #entrees, #desserts, #breakfast, #lunch, #drinks {
+   display: none;
 }
-
-#dining-menu input:checked ~ div label::after {
-   content:"\25BC";
-}
-
-
-
 
 /* 4. ---Main Hero Image Contact--- */
 
