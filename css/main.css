@@ -164,6 +164,43 @@ input, textarea {
    margin-bottom: 20px;
 }
 
+#dining-summary p {
+   text-align: center;
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 12px;
+}
+
+#dining-options p {
+   font-size: 12px;
+   margin-top: 12px;
+   margin-left: 15px;
+}
+
+.button {
+   cursor: pointer;
+   display: inline-block;
+}
+
+#dining-menu input, #Daily-Features{
+   display:none
+}
+
+#dining-menu input:checked ~ #Daily-Features {
+   display: block;
+}
+
+#dining-menu input ~ div label::before {
+   content:"\25C0";
+}
+
+#dining-menu input:checked ~ div label::after {
+   content:"\25BC";
+}
+
+
+
+
 /* 4. ---Main Hero Image Contact--- */
 
 .fas {
