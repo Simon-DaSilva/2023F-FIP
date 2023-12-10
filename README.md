@@ -1,6 +1,6 @@
 # Simon DaSilva 2023F FIP
 
-## details 
+## Details 
 
 Pages include:
 index.html
